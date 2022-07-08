@@ -1,0 +1,11 @@
+{
+  "lint": {
+    "rules": {
+      "exclude": []
+    }
+  },
+  "tasks": {
+    "test": "deno test --unstable --allow-net --allow-run",
+    "dev": "denoflare serve worker.ts"
+  }
+}
